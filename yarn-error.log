@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add exprees
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\Mohammad Node js\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Mohammad Node js\AppData\Local\Programs\Python\Python38\DLLs;C:\Users\Mohammad Node js\AppData\Local\Programs\Python\Python38\Lib;C:\Users\Mohammad Node js\AppData\Local\Programs\Python\Python38;;C:\WINDOWS\System32\OpenSSH\;C:\Users\Mohammad Node js\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Mohammad Node js\AppData\Local\Programs\Python\Python38\;C:\Users\Mohammad Node js\AppData\Local\Microsoft\WindowsApps;C:\Users\Mohammad Node js\AppData\Roaming\npm;C:\Users\Mohammad Node js\AppData\Local\Yarn\bin;C:\Users\Mohammad Node js\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mohammad Node js\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2019.3.1\bin;;;C:\Users\Mohammad Node js\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/exprees: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66056:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140665:22)
+      at Request.emit (events.js:223:5)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141637:10)
+      at Request.emit (events.js:223:5)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (events.js:312:28)
+      at IncomingMessage.emit (events.js:228:7)
+      at endReadableNT (_stream_readable.js:1185:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+
+npm manifest: 
+  {
+    "name": "test",
+    "version": "1.0.0",
+    "main": "app.js",
+    "author": "null",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

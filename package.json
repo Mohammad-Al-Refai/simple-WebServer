@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "null",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node /server/app.js"
+  }
+}
