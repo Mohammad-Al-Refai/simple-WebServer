@@ -1,5 +1,6 @@
 let e=require("express")
 let app=e()
+let PORT=process.env.PORT||3000
 
 
 
@@ -12,4 +13,4 @@ app.get('/start',(req,res)=>{
 })
 
 
-app.listen(3000)
+app.listen(PORT)
